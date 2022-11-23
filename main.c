@@ -1,29 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-double potencia(double num1, double num2){
-  return pow(num1, num2);
-}
-
-int raiz(int num1){
-  return sqrt(num1);
-}
-
-int suma(int num1, int num2) {
-  return num1 + num2;
-}
-
-int resta(int num1, int num2) {
-  return num1 - num2;
-}
-
-int multiplicacion(int num1, int num2) {
-  return num1 * num2;
-}
-
-int division(int num1, int num2) {
-  return num1 / num2;
-}
+// Funciones propias
+#include "potencia.h"
+#include "raiz.h"
+#include "suma.h"
+#include "resta.h"
+#include "multiplicacion.h"
+#include "division.h"
 
 int main() {
   int operacion, numero1, numero2;
